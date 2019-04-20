@@ -4,6 +4,7 @@
 o------o-------o------>master
        |
        o------>(branch) add
+       
 ------------------------------- 
        
 Step 1: git checkout master 
