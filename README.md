@@ -1,8 +1,11 @@
 # learning-git
 
 -------------------------------
+
 o------o-------o------>master
+
        |
+       
        o------>(branch) add
        
 ------------------------------- 
@@ -19,7 +22,7 @@ Exception: Xuất hiện conflict
 
  ..* Step 4: Mở code lên sửa conflick : có dạng như sau 
  
-      '''
+      
       
       <<<<<<< HEAD
       
