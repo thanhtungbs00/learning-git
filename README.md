@@ -1,11 +1,10 @@
 # learning-git
 
+-------------------------------
 o------o-------o------>master
-
        |
-       
        o------>(branch) add
-       
+------------------------------- 
        
 Step 1: git checkout master 
 
@@ -54,8 +53,8 @@ Exception: Xuất hiện conflict
   
   ..* Step 7: git push origin -f add 
   
-  ------complete------------
-  
+  --------------------
+  ##Complete
   
  #Không xuất hiện conflict :
  
