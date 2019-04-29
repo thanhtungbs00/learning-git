@@ -1,4 +1,4 @@
-# learning-git
+# Learning-git
 
 ```
 o--->o------------>o(master)
@@ -29,12 +29,9 @@ Exception: Xuất hiện conflict
       
       >>>>>>> branch1
 
-      
       giữ nguyên 2 dòng 12 và 16 hoặc chọn 1 trong 2 dòng tùy muốn.
       
       result : (maybe) : 
-      
-      
       
       third
       
@@ -43,19 +40,15 @@ Exception: Xuất hiện conflict
       
       
    Step 5: Lúc này đã sửa xong conflict 
- 
-       ```
        $ git add .
-       ```
+     
   Step 6: $ git rebase --continue
-  
-  
+ 
   Step 7: git push origin -f add 
   
-
-##Complete
+### Complete
   
-#Không xuất hiện conflict :
+## Không xuất hiện conflict :
  ```
  git rebase --continue 
  
