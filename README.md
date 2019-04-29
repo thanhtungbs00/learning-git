@@ -1,14 +1,10 @@
 # learning-git
 
--------------------------------
-
-o------o-------o------>master
-
-       |
-       
-       o------>(branch) add
-       
-------------------------------- 
+```
+o--->o------------>o(master)
+     |
+     o------>o(your branch)
+```
        
 Step 1: git checkout master 
 
@@ -20,9 +16,8 @@ Step 4: (đang ở nhánh add) git rebase master
 
 Exception: Xuất hiện conflict
 
- ..* Step 4: Mở code lên sửa conflick : có dạng như sau 
+      Step 4: Mở code lên sửa conflick : có dạng như sau 
  
-      
       
       <<<<<<< HEAD
       
@@ -33,37 +28,37 @@ Exception: Xuất hiện conflict
       branch 1 add third 
       
       >>>>>>> branch1
-      
-      '''
+
       
       giữ nguyên 2 dòng 12 và 16 hoặc chọn 1 trong 2 dòng tùy muốn.
       
       result : (maybe) : 
       
-      '''
+      
       
       third
       
       branch 1 add third 
       
-      '''
       
- ..*  Step 5: Lúc này đã sửa xong conflict 
+      
+   Step 5: Lúc này đã sửa xong conflict 
  
-          $ git add .
-          
-  ..* Step 6: $ git rebase --continue
+       ```
+       $ git add .
+       ```
+  Step 6: $ git rebase --continue
   
   
-  ..* Step 7: git push origin -f add 
+  Step 7: git push origin -f add 
   
-  --------------------
-  ##Complete
+
+##Complete
   
- #Không xuất hiện conflict :
- 
+#Không xuất hiện conflict :
+ ```
  git rebase --continue 
  
  git push origin -f add 
  
-  
+ ```
